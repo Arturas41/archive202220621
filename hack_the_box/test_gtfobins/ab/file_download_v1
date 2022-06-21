@@ -1,0 +1,32 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking attacker.com (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        attacker.com
+Server Port:            80
+
+Document Path:          /file_to_download
+Document Length:        162 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.157 seconds
+Complete requests:      1
+Failed requests:        0
+Non-2xx responses:      1
+Total transferred:      362 bytes
+HTML transferred:       162 bytes
+Requests per second:    6.37 [#/sec] (mean)
+Time per request:       157.011 [ms] (mean)
+Time per request:       157.011 [ms] (mean, across all concurrent requests)
+Transfer rate:          2.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       54   54   0.0     54      54
+Processing:   103  103   0.0    103     103
+Waiting:      103  103   0.0    103     103
+Total:        157  157   0.0    157     157

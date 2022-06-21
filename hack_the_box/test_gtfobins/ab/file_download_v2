@@ -1,0 +1,59 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking attacker.com (be patient)...INFO: GET header == 
+---
+GET /file_to_download HTTP/1.0
+Host: attacker.com
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+LOG: header received:
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 19 Jun 2022 16:03:39 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: close
+Location: https://attacker.com/file_to_download
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+WARNING: Response code not 2xx (301)
+..done
+
+
+Server Software:        nginx
+Server Hostname:        attacker.com
+Server Port:            80
+
+Document Path:          /file_to_download
+Document Length:        162 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.777 seconds
+Complete requests:      1
+Failed requests:        0
+Non-2xx responses:      1
+Total transferred:      362 bytes
+HTML transferred:       162 bytes
+Requests per second:    0.56 [#/sec] (mean)
+Time per request:       1776.645 [ms] (mean)
+Time per request:       1776.645 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      138  138   0.0    138     138
+Processing:  1639 1639   0.0   1639    1639
+Waiting:     1638 1638   0.0   1638    1638
+Total:       1777 1777   0.0   1777    1777

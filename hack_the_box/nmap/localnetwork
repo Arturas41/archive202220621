@@ -1,0 +1,148 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-08 18:40 EEST
+Stats: 0:19:45 elapsed; 232 hosts completed (23 up), 23 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.78% done; ETC: 19:00 (0:00:03 remaining)
+Nmap scan report for _gateway (192.168.30.1)
+Host is up (0.0013s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: F4:92:BF:7F:E5:CF (Unknown)
+
+Nmap scan report for Galaxy-A52 (192.168.30.36)
+Host is up (0.011s latency).
+All 1000 scanned ports on Galaxy-A52 (192.168.30.36) are closed
+MAC Address: 1E:19:0E:A3:18:8E (Unknown)
+
+Nmap scan report for Gateway7FF160 (192.168.30.66)
+Host is up (0.0024s latency).
+All 1000 scanned ports on Gateway7FF160 (192.168.30.66) are closed
+MAC Address: B8:2C:A0:7F:F1:60 (Resideo)
+
+Nmap scan report for GatewayE43DCF (192.168.30.67)
+Host is up (0.0068s latency).
+All 1000 scanned ports on GatewayE43DCF (192.168.30.67) are closed
+MAC Address: 00:D0:2D:E4:3D:CF (Resideo)
+
+Nmap scan report for 192.168.30.127
+Host is up (0.0029s latency).
+All 1000 scanned ports on 192.168.30.127 are closed
+MAC Address: 32:74:2C:4C:15:59 (Unknown)
+
+Nmap scan report for 192.168.30.146
+Host is up (0.0065s latency).
+All 1000 scanned ports on 192.168.30.146 are closed
+MAC Address: A2:99:70:28:CB:37 (Unknown)
+
+Nmap scan report for DESKTOP-045K6P9 (192.168.30.152)
+Host is up (0.023s latency).
+All 1000 scanned ports on DESKTOP-045K6P9 (192.168.30.152) are filtered
+MAC Address: DC:85:DE:EE:7C:4F (AzureWave Technology)
+
+Nmap scan report for 192.168.30.158
+Host is up (0.018s latency).
+Not shown: 999 closed ports
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: AE:A6:3B:A6:2C:52 (Unknown)
+
+Nmap scan report for M2003J15SC-RedmiNote (192.168.30.164)
+Host is up (0.0068s latency).
+All 1000 scanned ports on M2003J15SC-RedmiNote (192.168.30.164) are closed
+MAC Address: E0:CC:F8:94:E0:69 (Unknown)
+
+Nmap scan report for LAPTOP-ICPOE0GD (192.168.30.165)
+Host is up (0.14s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+6646/tcp open  unknown
+6881/tcp open  bittorrent-tracker
+MAC Address: 74:4C:A1:CF:7A:CD (Unknown)
+
+Nmap scan report for M2010J19SY-Redmi9T (192.168.30.180)
+Host is up (0.028s latency).
+All 1000 scanned ports on M2010J19SY-Redmi9T (192.168.30.180) are closed (683) or filtered (317)
+MAC Address: 5C:D0:6E:FC:6F:90 (Unknown)
+
+Nmap scan report for M2007J3SY (192.168.30.181)
+Host is up (0.015s latency).
+All 1000 scanned ports on M2007J3SY (192.168.30.181) are closed
+MAC Address: 7C:2A:DB:7F:EF:C1 (Unknown)
+
+Nmap scan report for 192.168.30.192
+Host is up (0.0016s latency).
+All 1000 scanned ports on 192.168.30.192 are closed
+MAC Address: A8:6B:AD:BA:15:D3 (Hon Hai Precision Ind.)
+
+Nmap scan report for LGwebOSTV (192.168.30.193)
+Host is up (0.0031s latency).
+Not shown: 996 closed ports
+PORT      STATE SERVICE
+3000/tcp  open  ppp
+3001/tcp  open  nessus
+7000/tcp  open  afs3-fileserver
+49152/tcp open  unknown
+MAC Address: E4:75:DC:4A:45:E8 (Unknown)
+
+Nmap scan report for Galaxy-A02s (192.168.30.199)
+Host is up (0.0032s latency).
+All 1000 scanned ports on Galaxy-A02s (192.168.30.199) are closed
+MAC Address: A0:27:B6:82:E6:5B (Unknown)
+
+Nmap scan report for Galaxy-A10 (192.168.30.200)
+Host is up (0.64s latency).
+All 1000 scanned ports on Galaxy-A10 (192.168.30.200) are closed
+MAC Address: E0:D0:83:DC:BA:6F (Unknown)
+
+Nmap scan report for Honor_8 (192.168.30.209)
+Host is up (0.011s latency).
+All 1000 scanned ports on Honor_8 (192.168.30.209) are closed
+MAC Address: 44:C3:46:0B:48:39 (Huawei Technologies)
+
+Nmap scan report for Galaxy-A20e (192.168.30.221)
+Host is up (0.0054s latency).
+All 1000 scanned ports on Galaxy-A20e (192.168.30.221) are closed
+MAC Address: C6:B9:88:A7:E8:10 (Unknown)
+
+Nmap scan report for HUAWEI_P30_Pro-440815a622 (192.168.30.229)
+Host is up (0.0045s latency).
+All 1000 scanned ports on HUAWEI_P30_Pro-440815a622 (192.168.30.229) are closed
+MAC Address: 32:A3:35:3A:65:58 (Unknown)
+
+Nmap scan report for moto-g-20 (192.168.30.232)
+Host is up (0.0034s latency).
+All 1000 scanned ports on moto-g-20 (192.168.30.232) are closed
+MAC Address: 9A:58:F4:76:E8:9C (Unknown)
+
+Nmap scan report for Galaxy-A21s (192.168.30.235)
+Host is up (0.0033s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+5061/tcp open  sip-tls
+MAC Address: 82:4F:20:76:C9:A4 (Unknown)
+
+Nmap scan report for kopalniaKryptow (192.168.30.236)
+Host is up (0.0027s latency).
+Not shown: 993 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+2869/tcp  open  icslap
+5357/tcp  open  wsdapi
+10243/tcp open  unknown
+MAC Address: AC:72:89:DA:E2:38 (Intel Corporate)
+
+Nmap scan report for DESKTOP-TRPDBKH (192.168.30.238)
+Host is up (0.043s latency).
+All 1000 scanned ports on DESKTOP-TRPDBKH (192.168.30.238) are filtered
+MAC Address: 5C:93:A2:EA:47:E9 (Liteon Technology)
+
+Nmap scan report for arturas-TUF-Gaming-FX505DD-FX505DD (192.168.30.166)
+Host is up (0.0000030s latency).
+All 1000 scanned ports on arturas-TUF-Gaming-FX505DD-FX505DD (192.168.30.166) are closed
+
+Nmap done: 256 IP addresses (24 hosts up) scanned in 1297.75 seconds
